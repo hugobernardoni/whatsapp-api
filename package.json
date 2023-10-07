@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-api",
+  "version": "1.0.0",
+  "description": "Whatsapp api by Ngekoding",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js",
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-api",
+    "node.js"
+  ],
+  "author": "Nur Muhammad",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "qrcode": "^1.4.4",
+    "socket.io": "^2.3.0",
+    "whatsapp-web.js": "https://github.com/Julzk/whatsapp-web.js/tarball/jkr_hotfix_8"
+  }
+}
